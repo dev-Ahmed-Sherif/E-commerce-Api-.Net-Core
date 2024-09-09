@@ -1,4 +1,4 @@
-namespace E_commerce_Api
+namespace Core
 {
     public class WeatherForecast
     {

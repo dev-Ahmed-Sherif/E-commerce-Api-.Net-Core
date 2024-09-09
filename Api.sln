@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API.csproj", "{C77BE149-3625-4DD7-9999-88DDC3390861}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "..\Core\Core.csproj", "{4301E23F-4998-4CEC-8F24-814FCB3F9FA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "..\Infrastructure\Infrastructure.csproj", "{1354762E-2C56-42DB-81ED-2D233A6A18E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C77BE149-3625-4DD7-9999-88DDC3390861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C77BE149-3625-4DD7-9999-88DDC3390861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C77BE149-3625-4DD7-9999-88DDC3390861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C77BE149-3625-4DD7-9999-88DDC3390861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4301E23F-4998-4CEC-8F24-814FCB3F9FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4301E23F-4998-4CEC-8F24-814FCB3F9FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4301E23F-4998-4CEC-8F24-814FCB3F9FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4301E23F-4998-4CEC-8F24-814FCB3F9FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1354762E-2C56-42DB-81ED-2D233A6A18E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1354762E-2C56-42DB-81ED-2D233A6A18E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1354762E-2C56-42DB-81ED-2D233A6A18E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1354762E-2C56-42DB-81ED-2D233A6A18E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {523C7E83-F232-40D9-9467-94C87EC61C40}
+	EndGlobalSection
+EndGlobal

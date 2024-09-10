@@ -1,0 +1,17 @@
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Infrastructure\bin\Debug\net8.0\Core.dll
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Infrastructure\bin\Debug\net8.0\Core.pdb
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

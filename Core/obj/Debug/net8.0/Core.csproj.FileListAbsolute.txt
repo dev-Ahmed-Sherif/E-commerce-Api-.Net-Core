@@ -1,0 +1,11 @@
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Core\bin\Debug\net8.0\Core.deps.json
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Core\bin\Debug\net8.0\Core.dll
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Core\bin\Debug\net8.0\Core.pdb
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Core\obj\Debug\net8.0\Core.dll
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Core\obj\Debug\net8.0\refint\Core.dll
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Core\obj\Debug\net8.0\Core.pdb
+E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\Core\obj\Debug\net8.0\ref\Core.dll

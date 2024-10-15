@@ -11,14 +11,16 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Implement Dependancy Injection
-
 // Add Connection String
 builder.Services.AddDbContext<StoreContext>(opt =>
     opt.UseSqlite(builder.Configuration.GetConnectionString("DB-SqlLite"))
 );
 
+// Implement Dependancy Injection
+
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+// Add Generic Repository 15 10 2024
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
 
 var app = builder.Build();

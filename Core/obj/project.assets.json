@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Coding\\C#\\Practice Projects\\Full ecommerce website ASP Core Angular\\Core\\Core.csproj",
+      "projectUniqueName": "E:\\Coding\\C#\\Practice Projects\\Full ecommerce website ASP Core Angular\\backend\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "E:\\Coding\\C#\\Practice Projects\\Full ecommerce website ASP Core Angular\\Core\\Core.csproj",
+      "projectPath": "E:\\Coding\\C#\\Practice Projects\\Full ecommerce website ASP Core Angular\\backend\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "E:\\Coding\\C#\\Practice Projects\\Full ecommerce website ASP Core Angular\\Core\\obj\\",
+      "outputPath": "E:\\Coding\\C#\\Practice Projects\\Full ecommerce website ASP Core Angular\\backend\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

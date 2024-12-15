@@ -3,6 +3,7 @@ using Core.DTOs.ProductDTOs;
 using Core.Entities;
 using Core.Interfaces;
 using Core.Specifications;
+using E_commerce_Api.Controllers;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
@@ -14,7 +15,7 @@ namespace Core.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductController : ControllerBase
+    public class ProductController : BaseApiController
     {
         // Old 15 10 2024
         private readonly IProductRepository _productRepository;

@@ -38,6 +38,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseStatusCodePagesWithReExecute("/errors/{0}");
+
+// Mange to Access Files 15 12 2024
 app.UseStaticFiles();
 app.UseAuthorization();
 

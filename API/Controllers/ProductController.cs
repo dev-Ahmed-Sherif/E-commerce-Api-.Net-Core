@@ -1,4 +1,5 @@
-﻿using Core.DTOs.ProductDTOs;
+﻿using AutoMapper;
+using Core.DTOs.ProductDTOs;
 using Core.Entities;
 using Core.Interfaces;
 using Core.Specifications;
@@ -22,22 +23,25 @@ namespace Core.Controllers
         private readonly IGenericRepository<Product> _productRepo;
         private readonly IGenericRepository<ProductBrand> _productBrandRepo;
         private readonly IGenericRepository<ProductType> _productTypeRepo;
+        private readonly IMapper _mapper;
 
         public ProductController(
-            IProductRepository productRepository, 
-            IGenericRepository<Product> productRepo, 
+            IProductRepository productRepository,
+            IGenericRepository<Product> productRepo,
             IGenericRepository<ProductBrand> productBrandRepo,
-            IGenericRepository<ProductType> productTypeRepo
+            IGenericRepository<ProductType> productTypeRepo,
+            IMapper mapper
             )
         {
             _productRepository = productRepository;
             _productRepo = productRepo;
             _productBrandRepo = productBrandRepo;
             _productTypeRepo = productTypeRepo;
+            _mapper = mapper;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<ProductDTO>>> GetProducts() 
+        public async Task<ActionResult<IReadOnlyList<ProductDTO>>> GetProducts()
         {
             // Without Generic Repo
             //IReadOnlyList<Product> products = await _productRepository.GetProductsAsync();
@@ -48,16 +52,26 @@ namespace Core.Controllers
             var spec = new ProductWithTypesAndBrandsSpecification();
             IReadOnlyList<Product> products = await _productRepo.ListAsync(spec);
             //return Ok(products);
-            return products.Select(product => new ProductDTO()
-            {
-                Id = product.Id,
-                Name = product.Name,
-                Description = product.Description,
-                Price = product.Price,
-                PictureUrl = product.PictureUrl,
-                ProductBrand = product.ProductBrand.Name,
-                ProductType = product.ProductType.Name,
-            }).ToList();
+
+            // 15 12 2024 This work fine without auto Mapper Package
+            //return products.Select(product => new ProductDTO()
+            //{
+            //    Id = product.Id,
+            //    Name = product.Name,
+            //    Description = product.Description,
+            //    Price = product.Price,
+            //    PictureUrl = product.PictureUrl,
+            //    //ProductBrand = product.ProductBrand.Name,
+            //    //ProductType = product.ProductType.Name,
+            //    BrandName = product.ProductBrand.Name,
+            //    TypeName = product.ProductType.Name,
+            //}).ToList();
+
+            // ProjectTo need IQueryable input 
+            //return products.Select(product => _mapper.ProjectTo<ProductDTO>(product)).ToList();
+
+            return Ok( _mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductDTO>>(products));
+
         }
         [HttpGet("{id}")]
         public async Task<ActionResult<ProductDTO>> GetProduct(int id)
@@ -71,16 +85,17 @@ namespace Core.Controllers
             var spec = new ProductWithTypesAndBrandsSpecification(id);
             Product? product = await _productRepo.GetEntityWithSpec(spec);
             //return Ok(product);
-            return new ProductDTO()
-            {
-                Id = product.Id,
-                Name = product.Name,
-                Description = product.Description,
-                Price = product.Price,
-                PictureUrl = product.PictureUrl,
-                ProductBrand = product.ProductBrand.Name,
-                ProductType = product.ProductType.Name,
-            };
+            //return new ProductDTO()
+            //{
+            //    Id = product.Id,
+            //    Name = product.Name,
+            //    Description = product.Description,
+            //    Price = product.Price,
+            //    PictureUrl = product.PictureUrl,
+            //    BrandName = product.ProductBrand.Name,
+            //    TypeName = product.ProductType.Name,
+            //};
+            return Ok( _mapper.Map<Product, ProductDTO>(product));
         }
         [HttpGet("Types")]
         public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetProductTypes()

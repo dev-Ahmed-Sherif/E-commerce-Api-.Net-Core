@@ -14,6 +14,7 @@ builder.Services.AddSwaggerGen();
 // Add Connection String
 builder.Services.AddDbContext<StoreContext>(opt =>
     opt.UseSqlite(builder.Configuration.GetConnectionString("DB-SqlLite"))
+    
 );
 
 // Implement Dependancy Injection

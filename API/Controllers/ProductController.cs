@@ -1,5 +1,7 @@
-﻿using Core.Entities;
+﻿using Core.DTOs.ProductDTOs;
+using Core.Entities;
 using Core.Interfaces;
+using Core.Specifications;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
@@ -35,22 +37,50 @@ namespace Core.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts() 
+        public async Task<ActionResult<IReadOnlyList<ProductDTO>>> GetProducts() 
         {
             // Without Generic Repo
             //IReadOnlyList<Product> products = await _productRepository.GetProductsAsync();
 
             // Using Generic Repo
-            IReadOnlyList<Product> products = await _productRepo.ListAllAsync();
-            return Ok(products);
+            // Without Specification ( Includes )
+            //IReadOnlyList<Product> products = await _productRepo.ListAllAsync();
+            var spec = new ProductWithTypesAndBrandsSpecification();
+            IReadOnlyList<Product> products = await _productRepo.ListAsync(spec);
+            //return Ok(products);
+            return products.Select(product => new ProductDTO()
+            {
+                Id = product.Id,
+                Name = product.Name,
+                Description = product.Description,
+                Price = product.Price,
+                PictureUrl = product.PictureUrl,
+                ProductBrand = product.ProductBrand.Name,
+                ProductType = product.ProductType.Name,
+            }).ToList();
         }
         [HttpGet("{id}")]
-        public async Task<ActionResult<Product>> GetProduct(int id)
+        public async Task<ActionResult<ProductDTO>> GetProduct(int id)
         {
-
+            // Without Generic Repo
             //Product? product = await _productRepository.GetProductByIdAsync(id);
-            Product? product = await _productRepo.GetByIdAsync(id);
-            return Ok(product);
+
+            // Using Generic Repo
+            // Without Specification ( Includes )
+            //Product? product = await _productRepo.GetByIdAsync(id);
+            var spec = new ProductWithTypesAndBrandsSpecification(id);
+            Product? product = await _productRepo.GetEntityWithSpec(spec);
+            //return Ok(product);
+            return new ProductDTO()
+            {
+                Id = product.Id,
+                Name = product.Name,
+                Description = product.Description,
+                Price = product.Price,
+                PictureUrl = product.PictureUrl,
+                ProductBrand = product.ProductBrand.Name,
+                ProductType = product.ProductType.Name,
+            };
         }
         [HttpGet("Types")]
         public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetProductTypes()

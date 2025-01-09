@@ -21,3 +21,27 @@ E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\backend\C
 E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\backend\Core\obj\Debug\net8.0\refint\Core.dll
 E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\backend\Core\obj\Debug\net8.0\Core.pdb
 E:\Coding\C#\Practice Projects\Full ecommerce website ASP Core Angular\backend\Core\obj\Debug\net8.0\ref\Core.dll
+D:\ASW Projects\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\bin\Debug\net8.0\Core.deps.json
+D:\ASW Projects\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\bin\Debug\net8.0\Core.dll
+D:\ASW Projects\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\bin\Debug\net8.0\Core.pdb
+D:\ASW Projects\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASW Projects\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+D:\ASW Projects\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+D:\ASW Projects\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+D:\ASW Projects\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\Core.sourcelink.json
+D:\ASW Projects\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\Core.dll
+D:\ASW Projects\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\refint\Core.dll
+D:\ASW Projects\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\Core.pdb
+D:\ASW Projects\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\ref\Core.dll
+D:\Learn\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\bin\Debug\net8.0\Core.deps.json
+D:\Learn\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\bin\Debug\net8.0\Core.dll
+D:\Learn\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\bin\Debug\net8.0\Core.pdb
+D:\Learn\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learn\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+D:\Learn\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+D:\Learn\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+D:\Learn\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\Core.sourcelink.json
+D:\Learn\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\Core.dll
+D:\Learn\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\refint\Core.dll
+D:\Learn\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\Core.pdb
+D:\Learn\Learn .Net Core\E-Commerce\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\ref\Core.dll

@@ -17,7 +17,7 @@ namespace E_commerce_Api.Controllers
         [HttpGet("notfound")]
         public IActionResult GetNotFoundRequest() 
         {
-            var thing = _context.Products.Find(50);
+            var thing = _context.Products.Find(-1);
             if (thing == null) return NotFound(new ApiResponse(404));
             return Ok();
         }
@@ -25,7 +25,7 @@ namespace E_commerce_Api.Controllers
         public IActionResult GetServerError() 
         {
             var thing = _context.Products.Find(50);
-            var thingToReturn = thing.ToString();
+            var thingToReturn = thing?.ToString();
             return Ok();
         }
         [HttpGet("badrequest")]

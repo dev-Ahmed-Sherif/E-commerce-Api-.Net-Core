@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\hp\\.nuget\\packages\\": {}
+    "C:\\Users\\a.sherif\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Coding\\C#\\Practice Projects\\Full ecommerce website ASP Core Angular\\backend\\Core\\Core.csproj",
+      "projectUniqueName": "D:\\Learn\\Learn .Net Core\\E-Commerce\\E-commerce-Api-.Net-Core\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "E:\\Coding\\C#\\Practice Projects\\Full ecommerce website ASP Core Angular\\backend\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "E:\\Coding\\C#\\Practice Projects\\Full ecommerce website ASP Core Angular\\backend\\Core\\obj\\",
+      "projectPath": "D:\\Learn\\Learn .Net Core\\E-Commerce\\E-commerce-Api-.Net-Core\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\a.sherif\\.nuget\\packages\\",
+      "outputPath": "D:\\Learn\\Learn .Net Core\\E-Commerce\\E-commerce-Api-.Net-Core\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\a.sherif\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

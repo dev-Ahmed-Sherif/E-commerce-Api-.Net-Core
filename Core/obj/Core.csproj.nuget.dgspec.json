@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Learn\\Learn .Net Core\\E-Commerce\\E-commerce-Api-.Net-Core\\Core\\Core.csproj": {}
+    "D:\\Learn\\Learn .Net Core\\Udemy\\E-Commerce\\E-commerce-Api-.Net-Core\\Core\\Core.csproj": {}
   },
   "projects": {
-    "D:\\Learn\\Learn .Net Core\\E-Commerce\\E-commerce-Api-.Net-Core\\Core\\Core.csproj": {
+    "D:\\Learn\\Learn .Net Core\\Udemy\\E-Commerce\\E-commerce-Api-.Net-Core\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Learn\\Learn .Net Core\\E-Commerce\\E-commerce-Api-.Net-Core\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\Learn\\Learn .Net Core\\Udemy\\E-Commerce\\E-commerce-Api-.Net-Core\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Learn\\Learn .Net Core\\E-Commerce\\E-commerce-Api-.Net-Core\\Core\\Core.csproj",
+        "projectPath": "D:\\Learn\\Learn .Net Core\\Udemy\\E-Commerce\\E-commerce-Api-.Net-Core\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\a.sherif\\.nuget\\packages\\",
-        "outputPath": "D:\\Learn\\Learn .Net Core\\E-Commerce\\E-commerce-Api-.Net-Core\\Core\\obj\\",
+        "outputPath": "D:\\Learn\\Learn .Net Core\\Udemy\\E-Commerce\\E-commerce-Api-.Net-Core\\Core\\obj\\",
         "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\a.sherif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +27,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,11 +44,28 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.5.0.109200, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "AutoMapper": "13.0.1",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.10",
+            "Microsoft.EntityFrameworkCore.Sqlite": "8.0.10",
+            "SonarAnalyzer.CSharp": "10.5.0.109200",
+            "Swashbuckle.AspNetCore": "6.4.0"
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l/34r9u5BLI=",
+  "dgSpecHash": "mWL5pDZG0Kc=",
   "success": true,
-  "projectFilePath": "D:\\Learn\\Learn .Net Core\\E-Commerce\\E-commerce-Api-.Net-Core\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\Learn\\Learn .Net Core\\Udemy\\E-Commerce\\E-commerce-Api-.Net-Core\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a.sherif\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\a.sherif\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
@@ -30,6 +30,7 @@
     "C:\\Users\\a.sherif\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
     "C:\\Users\\a.sherif\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\a.sherif\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\a.sherif\\.nuget\\packages\\sonaranalyzer.csharp\\10.5.0.109200\\sonaranalyzer.csharp.10.5.0.109200.nupkg.sha512",
     "C:\\Users\\a.sherif\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\a.sherif\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
     "C:\\Users\\a.sherif\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",

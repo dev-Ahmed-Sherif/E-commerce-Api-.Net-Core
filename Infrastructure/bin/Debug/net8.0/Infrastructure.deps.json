@@ -10,7 +10,8 @@
         "dependencies": {
           "Core": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.10",
-          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.10"
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.10",
+          "SonarAnalyzer.CSharp": "10.5.0.109200"
         },
         "runtime": {
           "Infrastructure.dll": {}
@@ -452,6 +453,7 @@
           }
         }
       },
+      "SonarAnalyzer.CSharp/10.5.0.109200": {},
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
         "dependencies": {
           "SQLitePCLRaw.lib.e_sqlite3": "2.1.6",
@@ -686,7 +688,10 @@
       "System.Threading.Channels/6.0.0": {},
       "Core/1.0.0": {
         "runtime": {
-          "Core.dll": {}
+          "Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -878,6 +883,13 @@
       "sha512": "sha512-KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
+    },
+    "SonarAnalyzer.CSharp/10.5.0.109200": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yS8uepqf+HwSEZtkJR7O4siqfyGKX4Lu7mIB6TTppy59czq7qkFjZ+fB7NTRZg8a/Pu7tvwVhpEMcxUTiQZmSw==",
+      "path": "sonaranalyzer.csharp/10.5.0.109200",
+      "hashPath": "sonaranalyzer.csharp.10.5.0.109200.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
       "type": "package",

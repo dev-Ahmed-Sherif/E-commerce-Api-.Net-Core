@@ -57,3 +57,15 @@ D:\Learn\Learn .Net Core\Udemy\E-Commerce\E-commerce-Api-.Net-Core\Core\obj\Debu
 D:\Learn\Learn .Net Core\Udemy\E-Commerce\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\refint\Core.dll
 D:\Learn\Learn .Net Core\Udemy\E-Commerce\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\Core.pdb
 D:\Learn\Learn .Net Core\Udemy\E-Commerce\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\ref\Core.dll
+D:\Learn\Learn .Net Core\Udemy\E-Commerce\E-commerce-Api-.Net-Core\new\E-commerce-Api-.Net-Core\Core\bin\Debug\net8.0\Core.deps.json
+D:\Learn\Learn .Net Core\Udemy\E-Commerce\E-commerce-Api-.Net-Core\new\E-commerce-Api-.Net-Core\Core\bin\Debug\net8.0\Core.dll
+D:\Learn\Learn .Net Core\Udemy\E-Commerce\E-commerce-Api-.Net-Core\new\E-commerce-Api-.Net-Core\Core\bin\Debug\net8.0\Core.pdb
+D:\Learn\Learn .Net Core\Udemy\E-Commerce\E-commerce-Api-.Net-Core\new\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learn\Learn .Net Core\Udemy\E-Commerce\E-commerce-Api-.Net-Core\new\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+D:\Learn\Learn .Net Core\Udemy\E-Commerce\E-commerce-Api-.Net-Core\new\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+D:\Learn\Learn .Net Core\Udemy\E-Commerce\E-commerce-Api-.Net-Core\new\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+D:\Learn\Learn .Net Core\Udemy\E-Commerce\E-commerce-Api-.Net-Core\new\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\Core.sourcelink.json
+D:\Learn\Learn .Net Core\Udemy\E-Commerce\E-commerce-Api-.Net-Core\new\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\Core.dll
+D:\Learn\Learn .Net Core\Udemy\E-Commerce\E-commerce-Api-.Net-Core\new\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\refint\Core.dll
+D:\Learn\Learn .Net Core\Udemy\E-Commerce\E-commerce-Api-.Net-Core\new\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\Core.pdb
+D:\Learn\Learn .Net Core\Udemy\E-Commerce\E-commerce-Api-.Net-Core\new\E-commerce-Api-.Net-Core\Core\obj\Debug\net8.0\ref\Core.dll

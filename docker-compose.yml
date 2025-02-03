@@ -3,4 +3,4 @@ services:
     image: ${DOCKER_REGISTRY-}api
     build:
       context: .
-      dockerfile: API\Dockerfile
+      dockerfile: API/Dockerfile

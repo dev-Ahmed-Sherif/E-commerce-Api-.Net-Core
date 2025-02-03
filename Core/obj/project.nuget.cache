@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vXt8PmdHuy0=",
+  "dgSpecHash": "wU7f23Y88gQ=",
   "success": true,
-  "projectFilePath": "D:\\Learn\\Learn .Net Core\\Udemy\\E-Commerce\\E-commerce-Api-.Net-Core\\new\\E-commerce-Api-.Net-Core\\Core\\Core.csproj",
+  "projectFilePath": "D:\\Learn\\Learn .Net Core\\Udemy\\E-Commerce\\E-commerce-Api-.Net-Core\\E-commerce-Api-.Net-Core\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ISDT\\.nuget\\packages\\sonaranalyzer.csharp\\10.5.0.109200\\sonaranalyzer.csharp.10.5.0.109200.nupkg.sha512"
   ],

@@ -2425,11 +2425,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Learn\\Learn .Net Core\\Udemy\\E-Commerce\\E-commerce-Api-.Net-Core\\new\\E-commerce-Api-.Net-Core\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "D:\\Learn\\Learn .Net Core\\Udemy\\E-Commerce\\E-commerce-Api-.Net-Core\\E-commerce-Api-.Net-Core\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "D:\\Learn\\Learn .Net Core\\Udemy\\E-Commerce\\E-commerce-Api-.Net-Core\\new\\E-commerce-Api-.Net-Core\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "D:\\Learn\\Learn .Net Core\\Udemy\\E-Commerce\\E-commerce-Api-.Net-Core\\E-commerce-Api-.Net-Core\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\ISDT\\.nuget\\packages\\",
-      "outputPath": "D:\\Learn\\Learn .Net Core\\Udemy\\E-Commerce\\E-commerce-Api-.Net-Core\\new\\E-commerce-Api-.Net-Core\\Infrastructure\\obj\\",
+      "outputPath": "D:\\Learn\\Learn .Net Core\\Udemy\\E-Commerce\\E-commerce-Api-.Net-Core\\E-commerce-Api-.Net-Core\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "fallbackFolders": [
@@ -2451,8 +2451,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Learn\\Learn .Net Core\\Udemy\\E-Commerce\\E-commerce-Api-.Net-Core\\new\\E-commerce-Api-.Net-Core\\Core\\Core.csproj": {
-              "projectPath": "D:\\Learn\\Learn .Net Core\\Udemy\\E-Commerce\\E-commerce-Api-.Net-Core\\new\\E-commerce-Api-.Net-Core\\Core\\Core.csproj"
+            "D:\\Learn\\Learn .Net Core\\Udemy\\E-Commerce\\E-commerce-Api-.Net-Core\\E-commerce-Api-.Net-Core\\Core\\Core.csproj": {
+              "projectPath": "D:\\Learn\\Learn .Net Core\\Udemy\\E-Commerce\\E-commerce-Api-.Net-Core\\E-commerce-Api-.Net-Core\\Core\\Core.csproj"
             }
           }
         }

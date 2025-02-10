@@ -4,15 +4,22 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- Infrastruct -->
-    <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
+    <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.11" />
+    <PackageVersion Include="Microsoft.AspNetCore.Identity" Version="2.3.0" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.11">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageVersion>
     <PackageVersion Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.10" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.11" />
+    <PackageVersion Include="Microsoft.IdentityModel.Tokens" Version="8.4.0" />
+    <PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="8.4.0" />
     <!-- API -->
     <PackageVersion Include="AutoMapper" Version="13.0.1" />
     <PackageVersion Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
     <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.5.0.109200" />
     <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <!-- Core -->
+    <PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.11" />
   </ItemGroup>
 </Project>

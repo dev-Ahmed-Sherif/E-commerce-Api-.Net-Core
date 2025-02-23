@@ -1,6 +1,6 @@
-﻿using E_commerce_Api.Entities;
+﻿using Core.Entities;
 
-namespace Core.Entities
+namespace E_commerce_Api.Entities
 {
     public class Product : Base
     {

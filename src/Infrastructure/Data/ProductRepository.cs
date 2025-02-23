@@ -1,5 +1,6 @@
 ﻿using Core.Entities;
 using Core.Interfaces;
+using E_commerce_Api.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using Core.DTOs.ProductDTOs;
-using Core.Entities;
+using E_commerce_Api.Entities;
 using E_commerce_Api.Helpers;
 
 namespace E_commerce_Api.Profiles.Products

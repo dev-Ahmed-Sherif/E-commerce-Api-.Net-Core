@@ -1,7 +1,7 @@
-﻿using Core.Specifications;
-using E_commerce_Api.Entities;
+﻿using Core.Entities;
+using Core.Specifications;
 
-namespace Core.Interfaces
+namespace E_commerce_Api.Interfaces
 {
     public interface IGenericRepository<T> where T : Base
     {

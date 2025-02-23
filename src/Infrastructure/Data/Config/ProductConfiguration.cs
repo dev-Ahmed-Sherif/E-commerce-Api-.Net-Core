@@ -1,4 +1,4 @@
-﻿using Core.Entities;
+﻿using E_commerce_Api.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

@@ -1,11 +1,6 @@
-﻿using E_commerce_Api.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Core.Entities;
 
-namespace Core.Entities
+namespace E_commerce_Api.Entities
 {
     public class ProductBrand : Base
     {

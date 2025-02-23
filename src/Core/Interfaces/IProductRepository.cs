@@ -1,4 +1,5 @@
 ﻿using Core.Entities;
+using E_commerce_Api.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

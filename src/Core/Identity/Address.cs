@@ -1,4 +1,4 @@
-﻿using E_commerce_Api.Entities;
+﻿using Core.Entities;
 
 namespace E_commerce_Api.Identity
 {

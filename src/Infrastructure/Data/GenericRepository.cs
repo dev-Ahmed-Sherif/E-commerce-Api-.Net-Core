@@ -1,6 +1,7 @@
-﻿using Core.Interfaces;
+﻿using Core.Entities;
 using Core.Specifications;
 using E_commerce_Api.Entities;
+using E_commerce_Api.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Data

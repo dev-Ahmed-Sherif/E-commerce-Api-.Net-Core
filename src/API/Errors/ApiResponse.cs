@@ -2,16 +2,14 @@
 {
     public class ApiResponse
     {
-        public ApiResponse(int statusCode,string message = null) 
+        public ApiResponse(int statusCode, string? message = null)
         {
             StatusCode = statusCode;
             Message = message ?? GetDefauleMessageForStatusCode(statusCode);
         }
-
         public int StatusCode { get; set; }
         public string Message { get; set; }
-
-        private string GetDefauleMessageForStatusCode(int statusCode)
+        private static string GetDefauleMessageForStatusCode(int statusCode)
         {
             return statusCode switch
             {

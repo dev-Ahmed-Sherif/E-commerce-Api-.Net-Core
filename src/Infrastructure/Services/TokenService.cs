@@ -2,13 +2,9 @@
 using E_commerce_Api.Interfaces;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
-using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace E_commerce_Api.Services
 {
@@ -19,8 +15,8 @@ namespace E_commerce_Api.Services
         {
             var claims = new List<Claim>
             {
-                new Claim(JwtRegisteredClaimNames.Email, user.Email ?? string.Empty),
-                new Claim(JwtRegisteredClaimNames.GivenName, user.DisplayName ?? string.Empty)
+                new(JwtRegisteredClaimNames.Email, user.Email ?? string.Empty),
+                new(JwtRegisteredClaimNames.GivenName, user.DisplayName ?? string.Empty)
             };
 
             // Additional code to create and return the token

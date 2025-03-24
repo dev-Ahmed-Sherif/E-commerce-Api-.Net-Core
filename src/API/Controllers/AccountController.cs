@@ -14,6 +14,7 @@ namespace E_commerce_Api.Controllers
     [ApiController]
     public class AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager,ITokenService tokenService) : BaseApiController
     {
+        private readonly RoleManager<IdentityRole> roleManager;
         [HttpPost("register")]
         public async Task<ActionResult<UserDto>> Register(RegisterDto registerDto)
         {
@@ -24,6 +25,7 @@ namespace E_commerce_Api.Controllers
                 UserName = registerDto.Email
             };
             var result = await userManager.CreateAsync(user, registerDto.Password);
+           
             if (!result.Succeeded) return BadRequest(new ApiResponse(400));
             return new UserDto
             {
@@ -36,6 +38,7 @@ namespace E_commerce_Api.Controllers
         [HttpPost("login")]
         public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
         {
+            await roleManager.CreateAsync(new IdentityRole("admin"));
             var user = await userManager.FindByEmailAsync(loginDto.Email);
             if (user == null) return Unauthorized(new ApiResponse(401));
             var result = await signInManager.CheckPasswordSignInAsync(user, loginDto.Password, false);
@@ -47,7 +50,7 @@ namespace E_commerce_Api.Controllers
                 DisplayName = user.DisplayName
             };
         }
-        [Authorize]
+        [Authorize (Roles="admin")]
         [HttpGet]
         public async Task<ActionResult<UserDto>> GetCurrentUser()
         {
@@ -66,6 +69,7 @@ namespace E_commerce_Api.Controllers
                 DisplayName = user.DisplayName
             };
         }
+        [Authorize]
         [HttpGet("emailexists")]
         public async Task<ActionResult<bool>> CheckEmailExistsAsync([FromQuery] string email)
         {

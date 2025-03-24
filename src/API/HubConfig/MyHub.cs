@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.SignalR;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.SignalR;
 
 namespace E_commerce_Api.HubConfig
 {
+    //[Authorize]
     public class MyHub : Hub
     {
         public async Task AskServer(string someTextFromClient)

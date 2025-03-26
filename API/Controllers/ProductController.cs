@@ -4,6 +4,7 @@ using Core.Entities;
 using Core.Interfaces;
 using Core.Specifications;
 using E_commerce_Api.Controllers;
+using E_commerce_Api.Helpers;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
@@ -42,7 +43,7 @@ namespace Core.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<ProductDTO>>> GetProducts()
+        public async Task<ActionResult<Pagination<ProductDTO>>> GetProducts([FromQuery]ProductSpecParams productParams)
         {
             // Without Generic Repo
             //IReadOnlyList<Product> products = await _productRepository.GetProductsAsync();
@@ -50,8 +51,6 @@ namespace Core.Controllers
             // Using Generic Repo
             // Without Specification ( Includes )
             //IReadOnlyList<Product> products = await _productRepo.ListAllAsync();
-            var spec = new ProductWithTypesAndBrandsSpecification();
-            IReadOnlyList<Product> products = await _productRepo.ListAsync(spec);
             //return Ok(products);
 
             // 15 12 2024 This work fine without auto Mapper Package
@@ -71,7 +70,13 @@ namespace Core.Controllers
             // ProjectTo need IQueryable input 
             //return products.Select(product => _mapper.ProjectTo<ProductDTO>(product)).ToList();
 
-            return Ok( _mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductDTO>>(products));
+            // 16 12 2024
+            var spec = new ProductWithTypesAndBrandsSpecification(productParams);
+            var countSpec = new ProductWithFiltersForSpecification(productParams);
+            var totalItems = await _productRepo.CountAsync(countSpec);
+            IReadOnlyList<Product> products = await _productRepo.ListAsync(spec);
+            var data = _mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductDTO>>(products);
+            return Ok(new Pagination<ProductDTO>(productParams.PageIndex, productParams.PageSize,totalItems, data));
 
         }
         [HttpGet("{id}")]

@@ -9,7 +9,17 @@ namespace Core.Specifications
 {
     public interface ISpecification<T>
     {
+        // Functions For more cleaner code more orginized in multi Includes
         Expression<Func<T,bool>> Criteria { get; }
         List<Expression<Func<T, object>>> Includes { get; }
+        
+        // Functions For Sort Data
+        Expression<Func<T, object>> OrderBy { get; }
+        Expression<Func<T, object>> OrderByDescending { get; }
+
+        // Pagination
+        int Take { get; }
+        int Skip { get; }
+        bool IsPaginatedEnabled { get; }
     }
 }

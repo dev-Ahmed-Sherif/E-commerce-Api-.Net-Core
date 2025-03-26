@@ -4,8 +4,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace E_commerce_Api.Controllers
 {
+    
     [Route("errors/{code}")]
-    [ApiController]
+    // 16 12 2024 Custom for methods which aren't controller actions
+    [ApiExplorerSettings(IgnoreApi = true)]
     public class ErrorController : BaseApiController
     {
         public IActionResult Error(int code)
